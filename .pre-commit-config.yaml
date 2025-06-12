@@ -1,0 +1,17 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+  - id: check-merge-conflict
+  - id: check-json
+  - id: check-toml
+  - id: check-yaml
+  - id: end-of-file-fixer
+- repo: https://github.com/psf/black
+  rev: 24.10.0
+  hooks:
+  - id: black
+- repo: https://github.com/domluna/JuliaFormatter.jl
+  rev: v2.1.2
+  hooks:
+  - id: julia-formatter
