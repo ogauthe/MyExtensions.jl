@@ -1,0 +1,1 @@
+Type piracy is good.
