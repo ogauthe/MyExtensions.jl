@@ -12,5 +12,5 @@ MyExtensionsTensorKitExt = "TensorKit"
 MyExtensionsPEPSKitExt = ["PEPSKit", "TensorKit"]
 
 [compat]
-TensorKit = "0.14"
+TensorKit = "0.14, 0.15"
 PEPSKit = "0.6"
