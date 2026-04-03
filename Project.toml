@@ -1,7 +1,7 @@
 name = "MyExtensions"
 uuid = "acfaa482-14be-4b33-895c-6016b1eaf7be"
 authors = ["Olivier Gauthé <ogauthe@flatironinstitute.org>"]
-version = "0.2.0"
+version = "0.2.1"
 
 [weakdeps]
 PEPSKit = "52969e89-939e-4361-9b68-9bc7cde4bdeb"
@@ -12,5 +12,5 @@ MyExtensionsTensorKitExt = "TensorKit"
 MyExtensionsPEPSKitExt = ["PEPSKit", "TensorKit"]
 
 [compat]
-TensorKit = "0.15"
-PEPSKit = "0.6"
+TensorKit = "0.15,0.16,0.17"
+PEPSKit = "0.6,0.7"
